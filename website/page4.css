@@ -1,0 +1,46 @@
+#container{
+    display: flex;
+}
+
+body {
+    font-family: system-ui;
+    width: 90%;
+    margin-inline: auto;
+    background-image: url(./thumbnail1_IMG_7211\ \(1\).png);
+    background-repeat: repeat;
+    background-position:;
+    background-attachment: fixed;
+    background-color: rgb(152, 102, 102);
+    opacity: 40;
+    <--h1 !important> sizecoverkann een wegmaan</h1>
+}
+
+.column{
+    float: left;
+    width:33,33%;
+    padding: 5px;
+}
+
+.row: :after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img{
+    width: 400px;
+    height: 300px;0px;
+    object-fit: contain;
+}
+
+.wrapper{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+.intro {
+    flex:1;
+}

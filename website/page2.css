@@ -1,0 +1,68 @@
+*,
+*: ::before,
+*: ::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: system-ui;
+    width: 90%;
+    margin-inline: auto;
+    background-image: url(thumbnail_IMG_7211.jpg);
+    background-repeat: repeat;
+    background-position:;
+    background-attachment: fixed;
+    background-color: rgb(152, 102, 102);
+    <--h1 !important> sizecoverkann een wegmaan</h1>
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-rows: auto auto auto;
+    gap: 1rem;
+    margin-top: 5rem;
+
+}
+
+.box {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+}
+
+.btn {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0,5em 1 em;
+    color: var(--clr-accent);
+    background-color: var(--clr-rgba);
+    border:10px solid var(--clr-accent);
+    border-radius: 5px;
+
+  
+
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-10px);
+}
+
+imagebig{
+    object-fit: contain;
+    position: center;
+}
